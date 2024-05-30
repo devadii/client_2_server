@@ -17,7 +17,8 @@ app.use("/api", auth);
 app.get("/", (req, res) => {
 	res.status(200).send({msg: "sever running..."})
 })
-const port = process.env.PORT || 2000;
+
+const port = 2000;
 
 app.listen(port, () => {
 	console.log(`app is running at port ${port}`);
