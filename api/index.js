@@ -3,7 +3,7 @@ const app = express();
 const bodyParser = require("body-parser");
 const cors = require("cors");
 const mongoose = require("mongoose");
-const auth = require("./routes/auth");
+const auth = require("../routes/auth");
 
 mongoose.connect("mongodb+srv://adildevmate:exAivGCIU3iwzIBb@cluster1.e24qfkj.mongodb.net", {}).then(() => {
 	console.log("DB CONNECTED");
