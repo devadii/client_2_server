@@ -14,7 +14,7 @@ app.use(cors());
 
 app.use("/api", auth);
 
-app.route("/", (req, res) => {
+app.get("/", (req, res) => {
 	res.status(200).send({msg: "sever running.."})
 })
 const port = process.env.PORT || 2000;
