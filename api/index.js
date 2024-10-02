@@ -5,7 +5,7 @@ const cors = require("cors");
 const mongoose = require("mongoose");
 const auth = require("../routes/auth");
 
-mongoose.connect("mongodb+srv://adildevmate:exAivGCIU3iwzIBb@cluster1.e24qfkj.mongodb.net", {}).then(() => {
+mongoose.connect("mongodb+srv://adil:UCEBX4czTK6NRQNA@fyp.rpm3t.mongodb.net/?retryWrites=true&w=majority&appName=Fyp", {}).then(() => {
 	console.log("DB CONNECTED");
 });
 
